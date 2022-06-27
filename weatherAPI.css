@@ -1,0 +1,53 @@
+body{
+			font-family: sans-serif;
+			background-color: lightcoral;
+			color: blanchedalmond;
+			background-image: url(backpic1.jpg);
+			background-size: cover;
+		}
+		.centerdiv{
+			margin-left:33% ;
+		}
+		.maincolor{
+			color: black;
+		}
+		h1{
+			color: navajowhite;
+		}
+		input{
+			margin-left: -15%;
+			height: 35px;
+			width: 70%;
+			font-size: 150%;
+		}
+		button{
+			height: 35px;
+			width: 15%;
+			font-size: 130%;
+			color: lightcoral;
+			border-radius: 10px;
+			cursor: pointer;
+			color: black;
+
+		}
+		button.margin{
+			margin-left: 41%;
+		}
+		.innerhtml3{
+			font-size: 300%;
+			font-family: monospace;
+			margin-left: 50%;
+			font-weight: bolder;
+		}
+		.innerhtml1{
+			font-size: 150%;
+			font-family: monospace;
+			margin-left: -35%;
+			font-weight: bolder;
+		}
+		.innerhtml2{
+			font-size: 500%;
+			font-family: monospace;
+			margin-left: -35%;
+			font-weight: bolder;
+		}
