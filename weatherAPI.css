@@ -2,23 +2,25 @@ body{
 			font-family: sans-serif;
 			background-color: lightcoral;
 			color: blanchedalmond;
-			background-image: url(backpic1.jpg);
+			background-image: url(backpic1.png);
 			background-size: cover;
 		}
 		.centerdiv{
 			margin-left:33% ;
 		}
 		.maincolor{
-			color: black;
+			color: navajowhite;
 		}
 		h1{
 			color: navajowhite;
 		}
 		input{
 			margin-left: -15%;
-			height: 35px;
+			height: 30px;
 			width: 70%;
 			font-size: 150%;
+			border-radius: 10px;
+			padding: 10px;
 		}
 		button{
 			height: 35px;
@@ -31,23 +33,41 @@ body{
 
 		}
 		button.margin{
-			margin-left: 41%;
+			margin-left: -6px;
+			height: 55px;
 		}
 		.innerhtml3{
 			font-size: 300%;
-			font-family: monospace;
+			font-family: sans-serif;
 			margin-left: 50%;
 			font-weight: bolder;
 		}
 		.innerhtml1{
-			font-size: 150%;
-			font-family: monospace;
+			font-size: 250%;
+			font-family: sans-serif;
 			margin-left: -35%;
 			font-weight: bolder;
 		}
 		.innerhtml2{
 			font-size: 500%;
-			font-family: monospace;
+			font-family: sans-serif;
 			margin-left: -35%;
 			font-weight: bolder;
+		}
+		.despmargin{
+			font-size: 300%;
+			font-family: sans-serif;
+			margin-left: 40%;
+			font-weight: bolder;
+		}
+		tr,td{
+			 border: 2px solid black;
+            width: 200px;
+            height: 45px;
+            color: navajowhite;
+            background-color: black;
+            font-family: monospace;
+            font-weight: bolder;
+            padding: 10px;
+            font-size: 130%;
 		}

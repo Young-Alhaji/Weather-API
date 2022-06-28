@@ -5,11 +5,17 @@ let response = await fetch(url)
 let convertedResponse= await response.json()
 console.log(convertedResponse)
   locatio.innerHTML= `  ${convertedResponse.sys.country} <br> ${convertedResponse.name} `
+  locatio2.innerHTML=` ${convertedResponse.weather[0].description}`
   maintemp.innerHTML=` ${convertedResponse.main.temp}°C`
- 	disp.innerHTML= `  Feels like <br>   ${convertedResponse.main.feels_like}°C <br>  Humidity <br> 
- 	 ${convertedResponse.main.humidity}% <br>   Pressure <br> 
- 	  ${convertedResponse.main.pressure}hPa <br>  Temp max <br>   
- 	   ${convertedResponse.main.temp_max}°C <br>   Temp min<br> 
- 	     ${convertedResponse.main.temp_min}°C`
-		 	
+ 	
+		 	ta.innerHTML=`<tr> <td>${convertedResponse.main.feels_like}°C
+		 	</td> <td>${convertedResponse.main.humidity}%
+		 	</td><td>${convertedResponse.main.pressure}hPa </td> </tr>`
+				
+				
+				
+				
+				
+			
+			
 	}

@@ -6,21 +6,34 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="weatherAPI.css">
 </head>
-<body>
+<body >
 	<div class="centerdiv maincolor">
 		<h1 >
 	ALHAJI WEATHER FORECAST 
 		</h1>
 		<div>
 		<input type="text" name="" id="cityname" placeholder="Enter your City's Name....">
-		</div> <br>
 		<button class="margin" onclick="forecast()">Search</button>
+		</div> <br>
+		
 		<div id="locatio" class="innerhtml1"></div>
+		<div id="locatio2" class="despmargin"></div>
+				
+		
 		<div id="maintemp" class="innerhtml2"></div>
-		<div id="disp" class="maincolor innerhtml3">
-			
-		</div>
+		
 	</div>
+	<div style="margin-left: 25%; margin-top: 10%;">
+			<table>
+				<tr>
+					<td>Feels like</td>
+					<td>Humidity</td>
+					<td>Pressure</td>
+				</tr>
+			</table>
+			<table id="ta">
+			</table>
+		</div>
 <script type="text/javascript" src="weatherAPI.js">
 	
 	
