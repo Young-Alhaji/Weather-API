@@ -3,19 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Yalhaji</title>
+	<title>Yalhaji weather updates</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="weatherAPI.css">
 	<style type="text/css">
 	</style>
 </head>
-<body onload="getLocation()">
+<body>
 	<div class="centerdiv maincolor">
 		<h1 >
 	<img src="logo.png" alt="page logo">Yalhaji
 		</h1>
+		<h3>Acquire Weather Information or Updates of any desired Location</h3>
 		<div>
 		<input type="text" name="" id="cityname" placeholder="Enter your City's Name....">
-		<button class="margin" onclick="forecast()">Search</button>
+		<button class="margin" onclick="forecast()"><i class="fa fa-space-shuttle" aria-hidden="true"></i></button>
 		</div> <br>
 		
 		<div id="locatio" class="innerhtml1"></div>
@@ -24,7 +26,7 @@
 		
 		<div id="maintemp" class="innerhtml2"></div>
 		
-	</div> <br><br><br> <br>
+	</div> <br>
 	<div style="margin-left: 25%; margin-top: 10%;">
 			<table>
 				<tr>

@@ -25,13 +25,18 @@ body{
 		}
 		button{
 			height: 35px;
-			width: 15%;
+			width: 7%;
 			font-size: 130%;
 			color: lightcoral;
+			background-color: navajowhite;
 			border-radius: 10px;
 			cursor: pointer;
 			color: black;
 
+		}
+		i{
+			color: black;
+			width: auto;
 		}
 		button.margin{
 			margin-left: -6px;
@@ -86,7 +91,14 @@ body{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 870px) {
+	body{
+			font-family: sans-serif;
+			background-color: lightcoral;
+			color: blanchedalmond;
+			background-image: url(backpic1.png);
+			background-size: auto;
+		}
 		button{
 			height: 35px;
 			width: 25%;
@@ -95,6 +107,7 @@ body{
 			border-radius: 10px;
 			cursor: pointer;
 			color: black;
+			background-color: novajawhite;
 
 		}
 		.innerhtml3{
@@ -131,5 +144,19 @@ body{
             font-weight: bolder;
             padding: 10px;
             font-size: 110%;
+		}
+	h3{
+		text-align: center;
+		 margin-left: -22%;
+	}
+	button{
+			height: 35px;
+			width: 13%;
+			font-size: 130%;
+			color: lightcoral;
+			border-radius: 10px;
+			cursor: pointer;
+			color: black;
+
 		}
 }
