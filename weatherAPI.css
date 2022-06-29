@@ -13,6 +13,7 @@ body{
 		}
 		h1{
 			color: navajowhite;
+			margin-left: 15%;
 		}
 		input{
 			margin-left: -15%;
@@ -71,3 +72,64 @@ body{
             padding: 10px;
             font-size: 130%;
 		}
+		.long{
+			font-size: 150%;
+		}
+		img{
+			margin-right: 5px;
+			width: 28px;
+			height: 35px;
+		}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+		button{
+			height: 35px;
+			width: 25%;
+			font-size: 110%;
+			color: lightcoral;
+			border-radius: 10px;
+			cursor: pointer;
+			color: black;
+
+		}
+		.innerhtml3{
+			font-size: 250%;
+			font-family: sans-serif;
+			margin-left: 50%;
+			font-weight: bolder;
+		}
+		.innerhtml1{
+			font-size: 200%;
+			font-family: sans-serif;
+			margin-left: -35%;
+			font-weight: bolder;
+		}
+		.innerhtml2{
+			font-size: 400%;
+			font-family: sans-serif;
+			margin-left: -35%;
+			font-weight: bolder;
+		}
+		.despmargin{
+			font-size: 250%;
+			font-family: sans-serif;
+			margin-left: 40%;
+			font-weight: bolder;
+		}
+		tr,td{
+			 border: 2px solid black;
+            width: 90px;
+            height: 45px;
+            color: novajowhite;
+            background-color: black;
+            font-family: monospace;
+            font-weight: bolder;
+            padding: 10px;
+            font-size: 110%;
+		}
+}
