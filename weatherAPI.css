@@ -1,7 +1,7 @@
 body{
 			font-family: sans-serif;
-			background-color: lightcoral;
-			color: blanchedalmond;
+			background-color: white;
+			color: black;
 			background-image: url(backpic1.png);
 			background-size: cover;
 		}
@@ -9,7 +9,10 @@ body{
 			margin-left:33% ;
 		}
 		.maincolor{
-			color: navajowhite;
+			color:black;
+		}
+		h3{
+			color: black;
 		}
 		h1{
 			color: navajowhite;
@@ -19,14 +22,14 @@ body{
 			margin-left: -15%;
 			height: 30px;
 			width: 70%;
-			font-size: 150%;
+			font-size: 130%;
 			border-radius: 10px;
 			padding: 10px;
 		}
 		button{
 			height: 35px;
-			width: 7%;
-			font-size: 130%;
+			width: 8%;
+			font-size: 120%;
 			color: lightcoral;
 			background-color: navajowhite;
 			border-radius: 10px;
@@ -36,7 +39,6 @@ body{
 		}
 		i{
 			color: black;
-			width: auto;
 		}
 		button.margin{
 			margin-left: -6px;
@@ -66,17 +68,6 @@ body{
 			margin-left: 40%;
 			font-weight: bolder;
 		}
-		tr,td{
-			 border: 2px solid black;
-            width: 200px;
-            height: 45px;
-            color: navajowhite;
-            background-color: black;
-            font-family: monospace;
-            font-weight: bolder;
-            padding: 10px;
-            font-size: 130%;
-		}
 		.long{
 			font-size: 150%;
 		}
@@ -85,25 +76,44 @@ body{
 			width: 28px;
 			height: 35px;
 		}
+		section{
+		display: flex; 
+		justify-content: space-evenly;
+		text-align: center; 
+		background-color: black;
+		 font-size: 130%;
+		  color: navajowhite;
+		  padding: 7px;
+		  }
 
 
 
 
 
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 770px) {
 	body{
 			font-family: sans-serif;
-			background-color: lightcoral;
-			color: blanchedalmond;
+			background-color: white;
+			color: black;
 			background-image: url(backpic1.png);
-			background-size: auto;
+			background-size:auto ;
 		}
+		section{
+		display: flex; 
+		justify-content: space-evenly;
+		text-align: center; 
+		background-color: black;
+		 font-size: 130%;
+		  color: navajowhite;
+		  padding: 7px;
+		  }
+	
 		button{
 			height: 35px;
-			width: 25%;
+			width: 19%;
 			font-size: 110%;
-			color: lightcoral;
+			color: black;
 			border-radius: 10px;
 			cursor: pointer;
 			color: black;
@@ -111,7 +121,7 @@ body{
 
 		}
 		.innerhtml3{
-			font-size: 250%;
+			font-size: 210%;
 			font-family: sans-serif;
 			margin-left: 50%;
 			font-weight: bolder;
@@ -123,40 +133,24 @@ body{
 			font-weight: bolder;
 		}
 		.innerhtml2{
-			font-size: 400%;
+			font-size: 350%;
 			font-family: sans-serif;
 			margin-left: -35%;
 			font-weight: bolder;
 		}
 		.despmargin{
-			font-size: 250%;
+			font-size: 220%;
 			font-family: sans-serif;
 			margin-left: 40%;
 			font-weight: bolder;
 		}
-		tr,td{
-			 border: 2px solid black;
-            width: 90px;
-            height: 45px;
-            color: novajowhite;
-            background-color: black;
-            font-family: monospace;
-            font-weight: bolder;
-            padding: 10px;
-            font-size: 110%;
-		}
+
 	h3{
 		text-align: center;
-		 margin-left: -22%;
+		 margin-left: -25%;
 	}
-	button{
-			height: 35px;
-			width: 13%;
-			font-size: 130%;
-			color: lightcoral;
-			border-radius: 10px;
-			cursor: pointer;
-			color: black;
+	h1{
+		margin-left: 11%;
+	}
 
-		}
 }
