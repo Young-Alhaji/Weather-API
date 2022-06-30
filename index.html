@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yalhaji weather updates</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="weatherAPI.css">
+	<style type="text/css">
+	</style>
+</head>
+<body onload="getLocation()">
+	<div class="centerdiv maincolor">
+		<h1 >
+	<img src="logo.png" alt="page logo">Yalhaji
+		</h1>
+		<h3>Acquire Weather Information or Updates of any desired Location</h3>
+		<div>
+		<input type="text" name="" id="cityname" placeholder="Enter your City's Name....">
+		<button class="margin" onclick="forecast()"><i class="fa fa-space-shuttle" aria-hidden="true"></i></button>
+		</div> <br>
+		
+		<div id="locatio" class="innerhtml1"></div>
+		<div id="locatio2" class="despmargin"></div>
+				
+		
+		<div id="maintemp" class="innerhtml2"></div>
+		
+	</div> <br> <br> <br>
+	<div style="margin-left: 15%; margin-top: 10%;">
+				<section>
+					<br>
+					<div>
+					<label>Feels like</label>
+					<p id="ta"></p>
+				</div>
+				<div>
+					<label>Humidity</label>
+					<p id="ta2"></p>
+				</div>
+				<div>
+					<label>Pressure</label>
+					<p id="ta3"></p>
+				</div>
+				</section>
+		</div>
+<script type="text/javascript" src="weatherAPI.js">
+	
+	
+	
+</script>
+</body>
+</html>
